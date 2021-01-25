@@ -12,8 +12,11 @@
         $firstname="Catherine";
         $age=20;
         echo "Bonjour $firstname $lastname, tu as $age ans";
-      ?>
+        ?>
       </p>
-    
-  </body>
+      
+      <!-- echo court -->
+      <p><?= "Bonjour $firstname $lastname, tu as $age ans";?></p>
+
+    </body>
 </html>

@@ -8,7 +8,8 @@
 <body>
     <p>Le var_dump de la variable entière :
     <?php
-      $varInt;
+      settype($varInt, "int");
+      // $varInt = null;
       var_dump($varInt);
       $varInt = 8;
       echo ("<br> Valeur de la variable de type entier : ") .$varInt;

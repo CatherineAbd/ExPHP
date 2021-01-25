@@ -11,11 +11,12 @@
       $varInt=8;
       $varFloat=3.14;
       $varString="Ceci est une chaîne de caractères";
-      $varBool=true;
+      $varBool=false;
       echo ("<br>variable de type entier : ") .$varInt;
       echo ("<br>variable de type float : ") .$varFloat;
       echo("<br>variable de type string : ") .$varString;
       echo("<br>variable de type booléen : ") .$varBool;
+      echo "<br>" . var_dump($varBool);
     ?>
     </p>
   
